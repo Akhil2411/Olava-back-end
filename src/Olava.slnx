@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="commands.txt" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="Olava.Api/Olava.Api.csproj" />
+  <Project Path="Olava.Application/Olava.Application.csproj" Id="6d52a416-48e3-4944-8d5f-a5af8a374f94" />
+  <Project Path="Olava.Domain/Olava.Domain.csproj" Id="03bd5876-85e5-4cbc-8a6c-bbdf8b3ca2d5" />
+  <Project Path="Olava.Infrastructure/Olava.Infrastructure.csproj" Id="8ebd5629-ff4c-42f2-986d-4d46cb402b5e" />
+</Solution>

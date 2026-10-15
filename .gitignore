@@ -1,0 +1,61 @@
+## Visual Studio / .NET Core / C# Standard Exclusions
+bin/
+obj/
+out/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user-specific and temp files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# JetBrains Rider & VS Code
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.cache
+
+# Build outputs & Logs
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.log
+*.binlog
+
+# NuGet Packages & Cache
+*.nupkg
+*.snupkg
+**/packages/
+project.lock.json
+project.fragment.lock.json
+
+# Local Configuration & Secrets (Prevent committing sensitive app settings)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secrets.json
+appsettings.*.Development.json
+
+# Docker & Container artifacts
+.docker/
+docker-compose.override.yml
+
+# Database / PostgreSQL local storage & data dumps
+*.db
+*.sqldump
+*.mdf
+*.ldf
+
+# Environment Files
+.env
+.env.local
+.env.development
+
+# OS-generated files
+.DS_Store
+Thumbs.db
